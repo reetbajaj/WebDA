@@ -133,15 +133,15 @@ body {
     color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30px 0;
-  }
+}
   
-  .home-sci a:hover {
+.home-sci a:hover {
     background: #0ef;
     color: #081629;
     box-shadow: 0 0 20px #0ef;
-  }
+}
   
-  .btn-box {
+.btn-box {
     display: inline-block;
     padding: 12px 28px;
     background: #0ef;
@@ -151,4 +151,10 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
-  }
+}
+
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan,0 0 200px cyan
+}
