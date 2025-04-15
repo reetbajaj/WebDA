@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const messageInput = document.getElementById("message");
     const wordCounter = document.getElementById("word-counter");
   
-    // Update word counter on input
+
     messageInput.addEventListener("input", function () {
       const wordCount = countWords(messageInput.value);
       wordCounter.textContent = `Words: ${wordCount}`;
     });
   
-    // Function to count words
+    /
     function countWords(str) {
-      // Split by spaces and filter out empty strings (handles multiple spaces)
+      
       const words = str.trim().split(/\s+/);
-      // If the input is empty, return 0; else return the length of words
+      
       return words[0] === "" ? 0 : words.length;
     }
   
